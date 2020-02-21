@@ -1,0 +1,117 @@
+* {
+	border: 1px white solid;
+}
+
+h1{ 
+	color:rgb(8, 61, 98) ;
+	margin: 0; 
+	font-family: "helvetica";
+}
+
+.header-title {
+	font-size: 200px;
+}
+
+h3{ color: rgb(230, 242, 255) ;}
+
+h6{ color: rgb(230, 242, 255) ;}
+
+body{ 
+	background-color: rgb(204, 217, 226);
+	margin: 0px;
+	padding: 0px;
+}
+
+
+img{ 
+	width:100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.fall{
+	position: fixed;
+	color: red;
+	height: 200px;
+	width: 100%;
+	top: 40%;
+}
+
+.fall p {
+	text-align: center;
+	visibility: hidden;
+}
+
+.container {
+	position: fixed;
+	color: red;
+	height: 200px;
+	width: 100%;
+	top: 80%;
+}
+.container p{
+	text-align: center;
+	font-size: xx-large;
+	visibility: hidden;
+	/*how to make font large so its easy to click*/
+}
+
+.clock1 {
+	  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: clock;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.intocave{
+	position: fixed;
+	color: red;
+	height: 100%;
+	width: 50%;
+	top: 0%;
+}
+
+.keepswimming{
+	position: relative;
+	/*align-content: left;*/
+	height: 150vh;
+	width: 50vw;
+	top: -500px;
+	float: right;
+}
+
+.woah{
+	font-size: 200px;
+	font-family: helvetica;
+	font-weight: bold;
+	animation: spin 2s infinite linear;
+}
+
+@keyframes spin{
+	to{
+		transform: rotate(360deg);
+	}
+}
+.back{
+	height: 100vh;
+	width: 100vw;
+}
+.SWIMMING {
+	position: absolute;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.clock1{
+	animation: spin 3s infinite linear;
+	width: 80vw;
+}
+
+
+
