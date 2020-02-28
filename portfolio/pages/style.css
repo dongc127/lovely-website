@@ -1,0 +1,16 @@
+.intro{
+	position: fixed;
+	height: 200px;
+	width: 100%;
+	top: 40%;
+}
+
+.intro2 {
+	font-family: Helvetica;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	height:200px;
+	width: 30%;
+	right:100; 
+}
