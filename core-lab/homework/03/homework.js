@@ -6,3 +6,12 @@ function changeHeading () {
 };
 
 $('p').css({"font-family":"comic sans 24px sans-serif"});
+
+function hideParagraphs () {
+	$("p").hide()
+}
+
+function showParagraphs () {
+	$("p").show()
+}
+
