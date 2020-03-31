@@ -1,0 +1,36 @@
+{
+
+  "manifest_version": 2,
+  "name": "extension",
+  "version": "1.0",
+
+  "description": "whitney about parasite",
+
+  // "background":
+  //   {
+  //       "scripts": ["scripts/jquery.min.js", "scripts/background.js"]
+  //   },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.whitney.org/about/*"],
+      "js": ["scripts/jquery.min.js", "scripts/main.js"],
+      "css" : ["styles/style.css"]
+    },
+    {
+      "matches": ["*://*.whitney.org/about/mission-values/*"],
+      "js": ["scripts/jquery.min.js", "scripts/main-mission.js"],
+      "css" : ["styles/style.css"]
+    },
+    {
+      "matches": ["*://*.whitney.org/about/history/*"],
+      "js": ["scripts/jquery.min.js", "scripts/main-mission.js"],
+      "css" : ["styles/style.css"]
+    },
+    {
+      "matches": ["*://*.whitney.org/about/bios/*"],
+      "js": ["scripts/jquery.min.js", "scripts/main-bios.js"],
+      "css" : ["styles/style.css"]
+    }
+  ]
+}
