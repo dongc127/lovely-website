@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Hover</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+		</script>
+
+<style type="text/css">
+	.square{
+		height: 400px;
+		width: 400px;
+		}
+	.square2{
+	height: 400px;
+	width: 400px;
+		}
+	.square3{
+	height: 400px;
+	width: 400px;
+		}
+</style>
+
+<script>
+$(document).ready(function(){
+  $(".square").hover(function(){
+    $(this).css("width", "400px");
+    }, function(){
+    $(this).css("width", "1x00px");
+  });
+});
+
+$(document).ready(function(){
+  $(".square2").hover(function(){
+    $(this).css("background-color", "pink");
+    }, function(){
+    $(this).css("background-color", "lightgreen");
+  });
+});
+
+$(document).ready(function(){
+  $(".square3").hover(function(){
+    $(this).css("background-color", "cornsilk");
+    }, function(){
+    $(this).css("background-color", "slateblue");
+  });
+});
+
+</script>
+
+</head>
+
+<body>
+
+<div class="square"></div>
+<div class="square2"></div>
+<div class="square3"></div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+.item1{
+	background-color: yellowgreen;
+	position: absolute;
+	height: 100px;
+	width:100px;
+	top: 100px;
+	left: 300px;
+}
+.item2{
+	background-color: blue;
+	position: absolute;
+	height: 200px;
+	width:200px;
+	top: 500px;
+	left:50px;
+
+}
+.item3{
+	background-color: lavender;
+	position: absolute;
+	height: 200px;
+	width:200px;
+	top: 200px;
+	left:500px;
+
+}
+.item4{
+	background-color: yellow;
+	position: absolute;
+	height: 200px;
+	width:200px;
+	top: 500px;
+	left:300px;
+}
+.item5{
+	background-color: orchid;
+	position: absolute;
+	height: 200px;
+	width:200px;
+	top: 700px;
+	left:100px;
+}
+.item6{
+	background-color:lightblue;
+	position: absolute;
+	height: 200px;
+	width:200px;
+	top: 50px;
+	left:600px;
+}
+.item7{
+	background-color:green;
+	position: absolute;
+	height: 200px;
+	width:200px;
+	top: 450px;
+	left:600px;
+}
